@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>AddEmploy</servlet-name>
+        <servlet-name>AddEmployee</servlet-name>
         <servlet-class>com.example.baithilai.controller.AddEmployeeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>AddEmploy</servlet-name>
-        <url-pattern>/addemploy</url-pattern>
+        <servlet-name>AddEmployee</servlet-name>
+        <url-pattern>/addemployee</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>ListEmployee</servlet-name>

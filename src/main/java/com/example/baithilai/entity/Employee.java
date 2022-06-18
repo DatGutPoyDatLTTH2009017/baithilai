@@ -22,6 +22,10 @@ public class Employee {
     }
 
     public Employee() {
+        this.fullName = "";
+        this.address = "";
+        this.position = "";
+        this.department = "";
     }
 
     public int getId() {
